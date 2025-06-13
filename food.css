@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding:0;
+    border:border-box;
+    cursor:context-menu;
+}
+.outernav{
+    display: flex;
+    justify-content: center;
+}
+#navbar{
+    display:flex;
+    flex-wrap:wrap;
+    width:95%;
+    text-align: center;
+    align-items: center;
+    height:4rem;
+    justify-content: space-between;
+}
+.navchoice select{
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+    background-color: inherit;
+    border: none;
+    padding: none;
+}
+.navchoice option{
+    background-color: white;
+}
+.navchoice{
+    display:flex;
+    height: 2rem;
+    width:50%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.heading{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:4rem;
+    display: inline;
+    margin-left: 3rem;
+}
+.choice{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border:solid;
+    border-radius: 0.25rem;
+    padding:0.25rem;
+}
+.choice:hover{
+    cursor:default;
+    background-color:rgb(254, 147, 165);
+}
+.outerhero{
+    display: flex;
+    justify-content: center;
+}
+.hero{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height:100vh;
+    width:90%;
+    margin-top:1rem;
+    color:white;
+    background-image:url("back.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    border-radius:2rem;
+    animation:first;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-play-state:running;
+}
+.hero h3{
+    margin-left:1rem;
+    font-size: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.hero p{
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    text-align: center;
+    width:60%;
+    font-size: 1.5rem;
+}
+.input-box{
+    margin-left: 0.5rem;
+    width:50%;
+    display: flex;
+    margin-top: 1rem;
+}
+.input-text{
+    width:85%;
+    font-size: 1rem;
+    height: 2rem;
+    opacity:0.75;
+    border-top-left-radius:0.5rem;
+    border-bottom-left-radius:0.5rem;
+    padding-left:0.5rem;
+}
+.input-box button{
+    font-size: 1rem;
+    font-weight:bold;
+    width:15%;
+    border-top-right-radius:0.5rem;
+    border-bottom-right-radius:0.5rem;
+    background-color: rgb(254, 147, 165);
+}
+
+.head{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+.head p{
+    display: inline;
+    border-bottom: solid;
+}
+
+.recipe-sec{
+    display: flex;
+    flex-wrap: wrap;
+    height:85rem;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+}
+.recipe-box{
+    width: 23%;
+    height: 25rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.box-image{
+    background-size: cover;
+    margin-top: 0.05rem;
+    border-radius: 1rem;
+    margin-bottom: 0.05rem;
+    height: 85%;
+    margin-left: 0.85rem;
+    margin-right: 0.85rem;
+    width:95%;
+}
+
+.recipe-box p{
+    margin-left: 1.5rem;
+    font-size: 1rem;
+    color:rgb(254, 147, 165);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.recipe-box h3{
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    font-family: Arial;
+}
+.recipe-box a{
+    text-decoration: none;
+    color: inherit;
+}
+.recipe-box h3:hover{
+    border:transparent;
+    border-radius: 0.2rem;
+    padding:0.1rem;
+    padding-left: 0.2rem;
+    background-color:rgb(247, 95, 120);
+}
+
+.footdesc p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+}
+.outer{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+.footdesc{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border:solid;
+    justify-content: space-evenly;
+    border-radius:1rem;
+    width:90%;
+    text-align: center;
+    height: 15rem;
+    background-color:rgb(226, 223, 223);
+    font-family:Arial, Helvetica, sans-serif;    
+}
+.ops1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.ops2{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+.op{
+    border:solid;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.op:hover{
+    background-color:rgb(254, 147, 165);
+}
+.panelouter1{
+    display: flex;
+    justify-content: center;
+}
+.panel1{
+    background-color:rgb(254, 147, 165) ;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 2rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+    width: 90%;
+    border-radius: 1rem;
+}
+.panelouter2{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.panel2{
+    height: 2rem;
+    font-size: 2rem;
+}
+.panel2 a{
+    color:#222f3d;
+}
+.panel2 i{
+    margin-left: 1rem;
+}
+
+.panel2 i:hover,.panelouter3 p:hover,.panel4 p:hover{
+    color:rgb(254, 147, 165);
+}
+.panelouter3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.panel31{
+    display:flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.panelouter3 p{
+    margin-left: 2rem;
+}
+.panel32{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+}
+.panel4 p{
+    display: inline;
+    border-top: solid;
+    margin:1.5rem;
+}
+.panel4{
+    color:#222f3d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    display: flex;  
+    justify-content: center;
+}
+@keyframes first{
+from{margin-left: 100%}
+to{margin-left:0%}
+}
+@media(min-width:768px) and (max-width:1024px){
+    .navbar{
+        height:6rem;
+    }
+    .recipe-sec{
+        height: 160rem;
+    }
+    .recipe-box{
+        width: 42%;
+    } 
+    .hero{
+        background-image: url('tablet.jpeg');
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width:767px){
+    .hero{
+        background-image: url('tablet.jpeg');
+    }
+    .hero p{
+        font-size:1rem;
+    }
+    .hero{
+        font-size:1.6rem;
+    }
+    .recipe-box{
+        width:85%;
+    }
+    .recipe-sec{
+        height: 320rem;
+    }
+    .navchoice{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: space-evenly; 
+    }
+    .navbar{
+        height: 25rem;
+        align-items: space-evenly;
+        justify-content: space-evenly;
+    }
+    .choice{
+        margin-left: 1.5rem;
+        font-size: 0.85rem;
+    }
+    .heading{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:3rem;
+    display: inline;
+    margin-left: 1rem;
+    }
+    .input-box{
+    margin-left: 0.5rem;
+    width:70%;
+    display: flex;
+    margin-top: 1rem;
+    }
+    .input-text{
+    width:60%;
+    font-size: 0.75rem;
+    height: 2rem;
+    opacity:0.75;
+    border-top-left-radius:0.5rem;
+    border-bottom-left-radius:0.5rem;
+    padding-left:0.5rem;
+    }
+    .input-box button{
+    font-size: 0.75rem;
+    font-weight:bold;
+    width:25%;
+    border-top-right-radius:0.5rem;
+    border-bottom-right-radius:0.5rem;
+    background-color: rgb(254, 147, 165);
+    }
+    .footdesc{
+        height: 20rem;
+    }
+    .op{
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+}

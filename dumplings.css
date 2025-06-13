@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding:0;
+    border:border-box;
+    cursor:context-menu;
+}
+.outernav{
+    display: flex;
+    justify-content: center;
+}
+#navbar{
+    display:flex;
+    flex-wrap:wrap;
+    width:95%;
+    text-align: center;
+    align-items: center;
+    height:4rem;
+    justify-content: space-between;
+}
+.navchoice{
+    display:flex;
+    height: 2rem;
+    width:50%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navchoice a{
+    text-decoration: none;
+    color: inherit;
+}
+.heading{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:4rem;
+    display: inline;
+    margin-left: 3rem;
+}
+.choice{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border:solid;
+    border-radius: 0.25rem;
+    padding:0.25rem;
+}
+.choice:hover{
+    cursor:default;
+    background-color:rgb(254, 147, 165);
+}
+.outermain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100rem;
+    margin-top: 2rem;
+}
+
+.main1,.main2{
+    width:45%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.m11,.m22{
+    height: 45%;
+}
+.m11{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.m11 p,.m22 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+}
+.m21{
+    background-image: url("dumplings.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+.m12{
+     background-image: url("dumplingsweb.jpeg");
+    background-size: cover;
+    border-radius: 1rem;
+
+}
+.m12,.m21{
+    height: 45%;
+}
+
+.footdesc p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+}
+.outer{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+.footdesc{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border:solid;
+    justify-content: space-evenly;
+    border-radius:1rem;
+    width:90%;
+    text-align: center;
+    height: 15rem;
+    background-color:rgb(226, 223, 223);
+    font-family:Arial, Helvetica, sans-serif;    
+}
+.ops1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.ops2{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+.op{
+    border:solid;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.op:hover{
+    background-color:rgb(254, 147, 165);
+}
+.panelouter1{
+    display: flex;
+    justify-content: center;
+}
+.panel1{
+    background-color:rgb(254, 147, 165) ;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 2rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+    width: 90%;
+    border-radius: 1rem;
+}
+.panelouter2{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.panel2{
+    height: 2rem;
+    font-size: 2rem;
+}
+.panel2 a{
+    color:#222f3d;
+}
+.panel2 i{
+    margin-left: 1rem;
+}
+
+.panel2 i:hover,.panelouter3 p:hover,.panel4 p:hover{
+    color:rgb(254, 147, 165);
+}
+.panelouter3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.panel31{
+    display:flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.panelouter3 p{
+    margin-left: 2rem;
+}
+.panel32{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+}
+.panel4 p{
+    display: inline;
+    border-top: solid;
+    margin:1.5rem;
+}
+.panel4{
+    color:#222f3d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    display: flex;  
+    justify-content: center;
+}
+
+@media(min-width:768px) and (max-width:1024px){
+    .navbar{
+        height:6rem;
+    }
+    .outermain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 190rem;
+    margin-top: 2rem;
+}
+
+.main1,.main2{
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.m11,.m22{
+    height: 40%;
+}
+.m11{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.m11 p,.m22 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+}
+.m21{
+    background-image: url("dumplingsweb.jpeg");
+    background-size: cover;
+    border-radius: 1rem;
+}
+.m12{
+    background-image: url("dumplings.jpeg");
+    background-size: cover;
+    border-radius: 1rem;
+
+}
+.m12,.m21{
+    height: 45%;
+}
+}
+
+@media(max-width:767px){
+    *{
+        margin: 0;
+        cursor:context-menu;
+    }
+    .navchoice{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: space-evenly; 
+    }
+    .navbar{
+        height: 25rem;
+        align-items: space-evenly;
+        justify-content: space-evenly;
+    }
+    .choice{
+        margin-left: 1.5rem;
+        font-size: 0.85rem;
+    }
+    .heading{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:3rem;
+    display: inline;
+    margin-left: 1rem;
+    }
+    .footdesc{
+        height: 15rem;
+    }
+    .footdesc p{
+        font-size: 1.5rem;
+    }
+    .op{
+        padding: 0.25rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .panelouter3 p{
+        font-size: 0.85rem;
+    }
+     .outermain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 140rem;
+    margin-top: 1.5rem;
+}
+
+.main1,.main2{
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.m11,.m22{
+    height: 55%;
+}
+.m11{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.m11 p,.m22 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+.m21{
+    background-image: url("dumplings.jpeg");
+    background-size: cover;
+    border-radius: 1rem;
+}
+.m12{
+    background-image: url("dumplingsweb.jpeg");
+    background-size: cover;
+    border-radius: 1rem;
+
+}
+.m12,.m21{
+    height: 35%;
+}
+
+}
